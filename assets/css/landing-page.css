@@ -1,0 +1,84 @@
+.resume-header {
+  flex-direction: row;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  width: 100%;
+  align-self: flex-start;
+}
+
+.contact-info-header {
+  flex-direction: row;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  width: 100%;
+  align-self: flex-start;
+  padding-top: 0px;
+}
+
+.resume-section {
+  background-color: #9900ff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.experience-div {
+  margin-bottom: -20px;
+}
+
+.email-header {
+  text-align: center;
+}
+
+.contact-info-section {
+  background-color: #a1275ccf;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.company-name {
+  color: white;
+  text-align: left;
+  margin-left: 10%;
+  margin-bottom: 0px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.company-name::after {
+  content: "";
+  display: block;
+  width: 50%; /* Adjust the width as needed */
+  height: 2px; /* Adjust the height as needed */
+  background-color: white; /* Match the text color */
+}
+
+.job-position {
+  color: white;
+  text-align: left;
+  margin: 12%;
+  margin-top: 0px;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 0px;
+}
+
+.job-date {
+  color: white;
+  text-align: left;
+  margin: 12%;
+  margin-top: 0px;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 0px;
+}
+
+.job-list-bullet {
+  color: white;
+  text-align: left;
+  margin: 12%;
+  margin-top: 0px;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 20px;
+  margin-bottom: 0px;
+}
+
+.empty-div {
+  height: 20px;
+}
